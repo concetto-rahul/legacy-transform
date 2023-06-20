@@ -1,0 +1,15 @@
+<svg id="Group_89347" data-name="Group 89347" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#82c1ff"/>
+      <stop offset="1" stop-color="#1389fd"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="40.833" height="40.833" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_60" data-name="Rectangle 60" width="70" height="70" rx="8" fill="url(#linear-gradient)"/>
+  <g id="Mask_Group_23" data-name="Mask Group 23" transform="translate(15.167 15.167)" clip-path="url(#clip-path)">
+    <path id="code-branch" d="M40.833,6.806A6.806,6.806,0,1,0,32.326,13.4v3.619a1.7,1.7,0,0,1-1.7,1.7H10.208a5.119,5.119,0,0,0-1.7.291V13.4a6.806,6.806,0,1,0-3.4,0V27.437a6.806,6.806,0,1,0,3.4,0V23.818a1.7,1.7,0,0,1,1.7-1.7H30.625a5.11,5.11,0,0,0,5.1-5.1V13.393a6.818,6.818,0,0,0,5.1-6.589ZM3.4,6.806a3.4,3.4,0,1,1,3.4,3.4A3.406,3.406,0,0,1,3.4,6.806Zm6.806,27.222a3.4,3.4,0,1,1-3.4-3.4A3.406,3.406,0,0,1,10.208,34.028ZM34.028,10.208a3.4,3.4,0,1,1,3.4-3.4A3.406,3.406,0,0,1,34.028,10.208Z" transform="translate(0 0.001)" fill="#fff"/>
+  </g>
+</svg>

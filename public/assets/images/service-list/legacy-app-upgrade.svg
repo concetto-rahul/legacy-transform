@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="47" height="47" transform="translate(334 905)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="legacy-app-upgrade" transform="translate(-334 -905)" clip-path="url(#clip-path)">
+    <path id="mobile-notch" d="M27.463,0C27.411,0,15.59,0,15.537,0a9.8,9.8,0,0,0-9.7,9.79V37.207A9.8,9.8,0,0,0,15.625,47h11.75a9.8,9.8,0,0,0,9.792-9.792V9.792A9.8,9.8,0,0,0,27.463,0ZM33.25,37.207a5.882,5.882,0,0,1-5.875,5.875H15.625A5.882,5.882,0,0,1,9.75,37.207V9.792a5.886,5.886,0,0,1,4.722-5.761l1.359,2.72a1.958,1.958,0,0,0,1.753,1.083h7.833A1.96,1.96,0,0,0,27.17,6.751l1.359-2.72A5.884,5.884,0,0,1,33.25,9.792V37.209Zm-9.792,1.958H19.542a1.959,1.959,0,0,1-1.958-1.958h0a1.959,1.959,0,0,1,1.958-1.958h3.917a1.959,1.959,0,0,1,1.958,1.958h0A1.959,1.959,0,0,1,23.459,39.165Z" transform="translate(336 905.001)" fill="#fff"/>
+  </g>
+</svg>

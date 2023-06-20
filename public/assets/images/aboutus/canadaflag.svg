@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2235" data-name="Rectangle 2235" width="32" height="32" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="canadaflag" clip-path="url(#clip-path)">
+    <g id="canada" transform="translate(0 5.333)">
+      <rect id="Rectangle_2240" data-name="Rectangle 2240" width="32" height="21.333" fill="#f0f0f0"/>
+      <g id="Group_89493" data-name="Group 89493">
+        <rect id="Rectangle_2241" data-name="Rectangle 2241" width="10.666" height="21.334" fill="#d80027"/>
+        <rect id="Rectangle_2242" data-name="Rectangle 2242" width="10.666" height="21.334" transform="translate(21.334)" fill="#d80027"/>
+        <path id="Path_16110" data-name="Path 16110" d="M18,17.482l2-1-1-.5v-1l-2,1,1-2H17l-1-1.5-1,1.5H14l1,2-2-1v1l-1,.5,2,1-.5,1h2v1.5h1v-1.5h2Z" transform="translate(0 -5.333)" fill="#d80027"/>
+      </g>
+    </g>
+  </g>
+</svg>

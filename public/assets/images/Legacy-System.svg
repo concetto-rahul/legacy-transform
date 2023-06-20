@@ -1,0 +1,15 @@
+<svg id="Group_89347" data-name="Group 89347" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#82c1ff"/>
+      <stop offset="1" stop-color="#1389fd"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="35" height="35" transform="translate(13 13)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_60" data-name="Rectangle 60" width="60" height="60" rx="8" fill="url(#linear-gradient)"/>
+  <g id="Mask_Group_15" data-name="Mask Group 15" clip-path="url(#clip-path)">
+    <path id="desktop-wallpaper" d="M35,8.75V20.417a7.294,7.294,0,0,1-7.292,7.292h-8.75v2.917h5.833a1.458,1.458,0,0,1,0,2.917H10.208a1.458,1.458,0,1,1,0-2.917h5.833V27.708H7.292A7.294,7.294,0,0,1,0,20.417V8.75A7.294,7.294,0,0,1,7.292,1.458H27.708A7.294,7.294,0,0,1,35,8.75ZM2.917,20.417a4.4,4.4,0,0,0,.992,2.771l8.648-8.648a4.929,4.929,0,0,1,6.971,0l.919.933a2.007,2.007,0,0,0,2.844,0l8.429-8.429a4.391,4.391,0,0,0-4.025-2.669H7.292A4.388,4.388,0,0,0,2.917,8.75Zm29.167,0v-9.61L25.36,17.529a4.929,4.929,0,0,1-6.971,0l-.919-.933a2.007,2.007,0,0,0-2.844,0L6.519,24.7a4.514,4.514,0,0,0,.788.073H27.723A4.388,4.388,0,0,0,32.1,20.4Z" transform="translate(13 13)" fill="#fff"/>
+  </g>
+</svg>

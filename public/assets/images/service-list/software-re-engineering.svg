@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2328" data-name="Rectangle 2328" width="47" height="47" transform="translate(334 905)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="software-re-engineering" transform="translate(-334 -905)" clip-path="url(#clip-path)">
+    <g id="_01_align_center" data-name="01 align center" transform="translate(334 906.958)">
+      <path id="Path_16687" data-name="Path 16687" d="M41.125,5.375H23.962L16.129,1.458H5.875A5.875,5.875,0,0,0,0,7.333V44.542H47V11.25A5.875,5.875,0,0,0,41.125,5.375Zm-35.25,0H15.2l7.833,3.917H41.125a1.958,1.958,0,0,1,1.958,1.958v1.725L3.917,13.2V7.333A1.958,1.958,0,0,1,5.875,5.375ZM3.917,40.625V17.113l39.167-.221V40.625Z" transform="translate(0 -1.458)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

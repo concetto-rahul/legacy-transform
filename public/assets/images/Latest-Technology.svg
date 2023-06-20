@@ -1,0 +1,15 @@
+<svg id="Group_89347" data-name="Group 89347" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#82c1ff"/>
+      <stop offset="1" stop-color="#1389fd"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="40.833" height="40.833" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_60" data-name="Rectangle 60" width="70" height="70" rx="8" fill="url(#linear-gradient)"/>
+  <g id="Mask_Group_21" data-name="Mask Group 21" transform="translate(15.194 15.167)" clip-path="url(#clip-path)">
+    <path id="display-code" d="M30.831,13.405a5.108,5.108,0,0,1,0,7.217l-4.395,4.4a1.7,1.7,0,0,1-2.406-2.406l4.395-4.4a1.7,1.7,0,0,0,0-2.406l-4.395-4.4a1.7,1.7,0,1,1,2.406-2.406l4.395,4.4ZM16.8,11.415A1.7,1.7,0,1,0,14.4,9.009L10,13.405a5.108,5.108,0,0,0,0,7.217l4.395,4.4A1.7,1.7,0,0,0,16.8,22.613l-4.395-4.4a1.7,1.7,0,0,1,0-2.406l4.395-4.4Zm24.03-1.206V23.819a8.517,8.517,0,0,1-8.507,8.507H22.118v3.4h6.806a1.7,1.7,0,1,1,0,3.4H11.91a1.7,1.7,0,0,1,0-3.4h6.806v-3.4H8.507A8.517,8.517,0,0,1,0,23.819V10.208A8.517,8.517,0,0,1,8.507,1.7H32.326A8.517,8.517,0,0,1,40.833,10.208Zm-3.4,0a5.11,5.11,0,0,0-5.1-5.1H8.507a5.11,5.11,0,0,0-5.1,5.1V23.819a5.11,5.11,0,0,0,5.1,5.1H32.326a5.11,5.11,0,0,0,5.1-5.1Z" fill="#fff"/>
+  </g>
+</svg>
