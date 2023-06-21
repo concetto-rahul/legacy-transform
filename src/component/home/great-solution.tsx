@@ -1,15 +1,76 @@
+"use client";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
 
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1
-};
+function SampleNextArrow({ onClick }: any) {
+  return (
+    <button
+      className="next-arrow slick-arrow"
+      title="Next"
+      onClick={onClick}
+    ></button>
+  );
+}
+
+function SamplePrevArrow({ onClick }: any) {
+  return (
+    <button
+      className="prev-arrow slick-arrow"
+      title="Previous"
+      onClick={onClick}
+    ></button>
+  );
+}
+
 export default function GreatSolution() {
+  const settings = {
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 3.8,
+    slidesToScroll: 1,
+    autoplaySpeed: 5000,
+    autoplay: false,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 3,
+          centerpadding: 10,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          centerpadding: "32px",
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          centerpadding: "32px",
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "0px",
+          centerMode: true,
+        },
+      },
+    ],
+  };
+
   return (
     <section className="great-solution">
       <div className="container">

@@ -2,11 +2,12 @@ import "./globals.css";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import HeadeNav from "@/component/header_nav";
 
 const poppins = Poppins({
   weight: ["400", "500", "600"],
   subsets: ["latin"],
-  display: "swap"
+  display: "swap",
 });
 
 export const metadata = {
@@ -17,26 +18,26 @@ export const metadata = {
       {
         url: "/assets/images/Logo-icon-transparent-svg.icon",
         type: "image/x-icon",
-        sizes: "220x26"
-      }
+        sizes: "220x26",
+      },
     ],
     apple: [
       {
         url: "/assets/images/apple-touch-icon-144.png",
         sizes: "144x144",
-        type: "image/png"
+        type: "image/png",
       },
       {
         url: "/assets/images/apple-touch-icon-72.png",
         sizes: "72x72",
-        type: "image/png"
+        type: "image/png",
       },
       {
         url: "/assets/images/apple-touch-icon-57.png",
         sizes: "57x57",
-        type: "image/png"
-      }
-    ]
+        type: "image/png",
+      },
+    ],
   },
   openGraph: {
     title: "Legacy Software Modernization Company | LegacyTansform",
@@ -48,11 +49,11 @@ export const metadata = {
       {
         url: "/assets/images/LegacyTransform-Logo.svg",
         width: 220,
-        height: 26
-      }
+        height: 26,
+      },
     ],
     locale: "en_US",
-    type: "website"
+    type: "website",
   },
   twitter: {
     card: "summary",
@@ -67,25 +68,23 @@ export const metadata = {
         url: "/assets/images/LegacyTransform-Logo.svg",
         alt: "Legacy Transform",
         width: 800,
-        height: 418
-      }
-    ]
+        height: 418,
+      },
+    ],
   },
   alternates: {
     canonical: "https://legacytransform.com/",
     languages: {
-      "en-us": "https://legacytransform.com/"
-    }
-  }
+      "en-us": "https://legacytransform.com/",
+    },
+  },
 };
 
 export default function RootLayout({
-  children
+  children,
 }: {
   children: React.ReactNode;
 }) {
-  const closeNav = () => {};
-  const openNav = () => {};
   return (
     <html lang="en" className={poppins.className}>
       <body>
@@ -110,139 +109,7 @@ export default function RootLayout({
                       </Link>
                     </div>
                     <div className="rapid_menu_right">
-                      <div className="nav-menu-left">
-                        <nav className="menu" id="menu">
-                          <div className="menu_mobile_visibility d-flex align-items-center justify-content-between p-3">
-                            <div className="logo-main">
-                              <Link className="d-block" href="/">
-                                <Image
-                                  src="/assets/images/LegacyTransform-Logo.svg"
-                                  alt="LegacyTransform"
-                                  title="LegacyTransform"
-                                  width={220}
-                                  height={26}
-                                  className="lazy logo-legacy"
-                                />
-                              </Link>
-                            </div>
-                            <div className="logo-close">
-                              <Link
-                                href="#"
-                                className="menu__close"
-                                id="menu__close"
-                                title="Menu Close"
-                              >
-                                <i
-                                  className="ac-icon"
-                                  data-icon="win-close"
-                                ></i>
-                              </Link>
-                            </div>
-                          </div>
-                          <ul className="mobile-nav" id="menu_ul">
-                            <li className="first-new is-open-new">
-                              <Link href="/services" title="Our Services">
-                                Our Services
-                              </Link>
-                              <span className="arrow-plus"></span>
-                              <ul className="sub-menu">
-                                <li className="first-new">
-                                  <Link
-                                    href="/software-audit-services-detail"
-                                    title="Software System Assessments and Audits"
-                                  >
-                                    Software System Assessments and Audits
-                                  </Link>
-                                </li>
-                                <li className="first-new">
-                                  <Link
-                                    href="/desktop-Web-Application-Migration-Services"
-                                    title="desktop-Web-Application-Migration-Services"
-                                  >
-                                    Desktop To Web Application Migration
-                                  </Link>
-                                </li>
-                                <li className="first-new d-none">
-                                  <Link
-                                    href="#"
-                                    title="Legacy Application Upgrade"
-                                  >
-                                    Legacy Application Upgrade
-                                  </Link>
-                                </li>
-                                <li className="first-new">
-                                  <Link
-                                    href="/rearchitecting-service-detail"
-                                    title="Software Re-architecting"
-                                  >
-                                    Software Re-architecting
-                                  </Link>
-                                </li>
-                                <li className="first-new d-none">
-                                  <Link href="#" title="Cloud Migration">
-                                    Cloud Migration
-                                  </Link>
-                                </li>
-                                <li className="first-new d-none">
-                                  <Link href="#" title="API Integrations">
-                                    API Integrations
-                                  </Link>
-                                </li>
-                                <li className="first-new">
-                                  <Link
-                                    href="/reengineering-service-detail"
-                                    title="Software Re-engineering"
-                                  >
-                                    Software Re-engineering
-                                  </Link>
-                                </li>
-                              </ul>
-                            </li>
-                            <li className="first-new d-none">
-                              <Link href="#" title="Our Work">
-                                Our Work
-                              </Link>
-                            </li>
-                            <li className="first-new">
-                              <Link href="/aboutus" title="About Us">
-                                About Us
-                              </Link>
-                            </li>
-                            <li className="first-new d-none">
-                              <Link href="#" title="Blog">
-                                Blog
-                              </Link>
-                            </li>
-                          </ul>
-                          <div className="row">
-                            <div className="nav-menu-right d-block d-md-none me-0 me-md-4 me-xl-0 mt-4">
-                              <Link
-                                href="/contactus"
-                                className="icon-button d-flex ac-btn-common"
-                                title="Contact Us"
-                              >
-                                Contact Us
-                                <i
-                                  className="ac-icon"
-                                  data-icon="rapid-contact-us"
-                                ></i>
-                              </Link>
-                            </div>
-                          </div>
-                          <ul className="overflow sub-menu"></ul>
-                        </nav>
-                      </div>
-                      <div className="nav-overlay"></div>
-                      <div className="menu_open_close text-right">
-                        <Link
-                          href="#"
-                          className="menu__open"
-                          id="menu__open"
-                          title="Menu Open"
-                        >
-                          <i className="ac-icon" data-icon="win-menu"></i>
-                        </Link>
-                      </div>
+                      <HeadeNav />
                     </div>
                     <div className="nav-menu-right d-none d-xl-block me-0 me-md-4 me-xl-0">
                       <Link
