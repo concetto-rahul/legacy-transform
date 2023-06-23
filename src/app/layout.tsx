@@ -2,7 +2,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-import HeadeNav from "@/component/header_nav";
+import HeaderNav from "@/component/header_nav";
 
 const poppins = Poppins({
   weight: ["400", "500", "600"],
@@ -109,7 +109,7 @@ export default function RootLayout({
                       </Link>
                     </div>
                     <div className="rapid_menu_right">
-                      <HeadeNav />
+                      <HeaderNav />
                     </div>
                     <div className="nav-menu-right d-none d-xl-block me-0 me-md-4 me-xl-0">
                       <Link

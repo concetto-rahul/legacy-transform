@@ -1,4 +1,7 @@
 import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const ContactUsForm = dynamic(() => import("../../component/contact_us_form"));
 
 export default function GetContact() {
   return (
@@ -12,97 +15,7 @@ export default function GetContact() {
             <h1 className="ac-heading ms-auto text-center text-black">
               Contact&nbsp;<span className="text-blue">Us</span>
             </h1>
-            <div className="call-form">
-              <form className="row g-3">
-                <div className="col-md-6 ps-icon">
-                  <label htmlFor="inputname" className="form-label">
-                    name
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="inputname"
-                    placeholder="Enter Name"
-                  />
-                  <span className="contact-icons">
-                    <i className="ac-icon" data-icon="rapid-user-name"></i>
-                  </span>
-                </div>
-                <div className="col-md-6 ps-icon">
-                  <label htmlFor="inputemailaddress" className="form-label">
-                    email address
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="inputemailaddress"
-                    placeholder="Enter Email Address"
-                  />
-                  <span className="contact-icons">
-                    <i className="ac-icon" data-icon="rapid-user-email"></i>
-                  </span>
-                </div>
-                <div className="col-md-6 ps-icon">
-                  <label htmlFor="inputphone" className="form-label">
-                    Phone
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="inputphone"
-                    placeholder="Enter Phone number"
-                  />
-                  <span className="contact-icons">
-                    <i className="ac-icon" data-icon="rapid-user-phone"></i>
-                  </span>
-                </div>
-                <div className="col-md-6">
-                  <label htmlFor="inputState" className="form-label">
-                    Services
-                  </label>
-                  <select
-                    className="lag-education form-select"
-                    aria-label="Default select example"
-                  >
-                    <option value="">Select Service</option>
-                    <option value="Professional">Professional</option>
-                  </select>
-                </div>
-                <div className="col-12">
-                  <label htmlFor="inputproject" className="form-label">
-                    PROJECT DESCRIPTION
-                  </label>
-                  <textarea
-                    className="form-control"
-                    id="exampleFormControlTextarea1"
-                    placeholder="Enter Project Description"
-                    rows={5}
-                  ></textarea>
-                </div>
-                <div className="col-12">
-                  <div
-                    className="g-recaptcha"
-                    data-sitekey="6LcaDOEcAAAAAMMMjj-8-BQorfN6X5DJIScfRuFz"
-                  ></div>
-                </div>
-                <div className="col-12">
-                  <div className="d-flex justify-content-between align-items-center flex-wrap">
-                    <a
-                      className="icon-button d-flex ac-btn-common"
-                      href="#"
-                      title="Submit"
-                    >
-                      Submit
-                      <i className="ac-icon" data-icon="rapid-contact-us"></i>
-                    </a>
-                    <p className="fs-16 fw-600 mt-4 mt-md-0">
-                      <i className="ac-icon" data-icon="rapid-safe"></i>100%
-                      Secure and Confidential.
-                    </p>
-                  </div>
-                </div>
-              </form>
-            </div>
+            <ContactUsForm />
           </div>
         </div>
       </div>

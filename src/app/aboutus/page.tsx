@@ -9,6 +9,12 @@ const Corevalues = dynamic(() => import("../../component/aboutus/corevalues"));
 const ContactCountry = dynamic(
   () => import("../../component/contactus/contact-country")
 );
+const AboutMigrationSolution = dynamic(
+  () => import("../../component/aboutus/about-migration-solution")
+);
+const AboutWeCanHelp = dynamic(
+  () => import("../../component/aboutus/about-we-can-help")
+);
 const FrequentlyQuestions = dynamic(
   () => import("../../component/home/frequently-questions")
 );
@@ -24,7 +30,9 @@ export default function AboutUs() {
       <AboutIntro />
       <Corevalues />
       <ContactCountry />
-      <FrequentlyQuestions />
+      <AboutMigrationSolution />
+      <AboutWeCanHelp />
+      <FrequentlyQuestions pageName="aboutus" />
       <GetContact />
     </>
   );

@@ -44,7 +44,7 @@ export default function Home() {
       <UniquePart />
       <OurWork />
       <WeCanHelp />
-      <FrequentlyQuestions />
+      <FrequentlyQuestions pageName="home" />
       <GetContact />
     </>
   );

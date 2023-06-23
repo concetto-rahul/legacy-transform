@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BsArrowRight } from "react-icons/bs";
 
 export default function AboutInnerbaner() {
   return (
@@ -19,14 +20,7 @@ export default function AboutInnerbaner() {
                   the current trends.
                 </p>
                 <Link href="/contactus" className="btncommon">
-                  Request A Consultation{" "}
-                  <Image
-                    src="/assets/images/aboutus/right-arrow.svg"
-                    alt="aboutusimg"
-                    title="aboutusimg"
-                    width={17}
-                    height={17}
-                  />
+                  Request A Consultation <BsArrowRight size={20} />
                 </Link>
               </div>
             </div>

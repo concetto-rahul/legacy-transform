@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function HeadeNav() {
+export default function HeaderNav() {
   const [showMenu, setShowMenu] = useState(false);
   const [showSubMenu, setShowSubMenu] = useState(false);
   return (
@@ -61,7 +61,7 @@ export default function HeadeNav() {
               <ul className="sub-menu">
                 <li className="first-new">
                   <Link
-                    href="/software-audit-services-detail"
+                    href="/services/software-system-assessments-and-audits"
                     title="Software System Assessments and Audits"
                   >
                     Software System Assessments and Audits
@@ -69,7 +69,7 @@ export default function HeadeNav() {
                 </li>
                 <li className="first-new">
                   <Link
-                    href="/desktop-Web-Application-Migration-Services"
+                    href="/services/desktop-to-web-application-migration"
                     title="desktop-Web-Application-Migration-Services"
                   >
                     Desktop To Web Application Migration
@@ -82,7 +82,7 @@ export default function HeadeNav() {
                 </li>
                 <li className="first-new">
                   <Link
-                    href="/rearchitecting-service-detail"
+                    href="/services/software-rearchitecting"
                     title="Software Re-architecting"
                   >
                     Software Re-architecting
@@ -100,7 +100,7 @@ export default function HeadeNav() {
                 </li>
                 <li className="first-new">
                   <Link
-                    href="/reengineering-service-detail"
+                    href="/services/software-reengineering"
                     title="Software Re-engineering"
                   >
                     Software Re-engineering

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev_win": "next dev -p 3004",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -18,7 +19,9 @@
     "next": "13.4.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-google-recaptcha": "^3.1.0",
     "react-hook-form": "^7.45.0",
+    "react-icons": "^4.10.1",
     "react-select": "^5.7.3",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
@@ -26,6 +29,7 @@
     "yup": "^1.2.0"
   },
   "devDependencies": {
+    "@types/react-google-recaptcha": "^2.1.5",
     "@types/react-slick": "^0.23.10"
   }
 }
